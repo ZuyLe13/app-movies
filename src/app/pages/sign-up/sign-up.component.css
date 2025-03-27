@@ -1,0 +1,5 @@
+.page-cover {
+  background-image: url("/assets/img/bg-auth.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
