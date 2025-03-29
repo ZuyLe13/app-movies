@@ -1,19 +1,19 @@
-<div class="text-white py-4 px-6 flex items-center justify-between">
-  <div class="flex items-center">
+<header class="header-container">
+  <div class="logo-wrapper">
     <img src="assets/icons/logo.svg" alt="Logo" />
     <img src="assets/icons/logo-1.svg" alt="Logo" />
   </div>
 
-  <nav class="flex space-x-6">
-    <a href="#" class="hover:text-gray-300">Home</a>
-    <a href="#" class="hover:text-gray-300">Discover</a>
-    <a href="#" class="hover:text-gray-300">Movie Release</a>
-    <a href="#" class="hover:text-gray-300">Forum</a>
-    <a href="#" class="hover:text-gray-300">About</a>
+  <nav class="nav-list">
+    <a routerLink="/home" class="nav-item">Home</a>
+    <a routerLink="/discover" class="nav-item">Discover</a>
+    <a routerLink="/movie-release" class="nav-item">Movie Release</a>
+    <a routerLink="/forum" class="nav-item">Forum</a>
+    <a routerLink="/about" class="nav-item">About</a>
   </nav>
 
-  <div class="flex items-center space-x-4">
-    <button class="text-gray-400 hover:text-white">
+  <div class="header-btn-wrapper">
+    <button class="header-search-btn">
       <svg
         class="w-6 h-6"
         fill="none"
@@ -30,16 +30,7 @@
       </svg>
     </button>
 
-    <button
-      class="bg-transparent border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-gray-900"
-    >
-      Sign Up
-    </button>
-
-    <button
-      class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
-    >
-      Sign In
-    </button>
+    <button class="btn btn-outline">Sign Up</button>
+    <button class="btn btn-primary">Sign In</button>
   </div>
-</div>
+</header>

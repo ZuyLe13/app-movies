@@ -7,15 +7,11 @@
           <img src="assets/icons/logo-1.svg" alt="SaintStream" />
         </div>
 
-        <p class="text-[#6d737b] text-sm font-semibold">
+        <p class="text-[#676a6d] text-sm font-semibold">
           Login to your account
         </p>
       </div>
-      <button
-        class="border-2 border-[#242424] px-5 py-2.5 rounded-2xl hover:border-white transition duration-200"
-      >
-        Close
-      </button>
+      <button class="sign-btn btn">Close</button>
     </div>
 
     <form [formGroup]="signinForm" (ngSubmit)="onSubmit()">
@@ -92,7 +88,7 @@
       </button>
     </form>
 
-    <div class="text-center mt-6 text-sm text-[#6d737b] font-semibold">
+    <div class="text-center mt-6 text-sm text-[#676a6d] font-semibold">
       Don't have an account?
       <a
         routerLink="/sign-up"

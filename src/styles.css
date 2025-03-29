@@ -25,3 +25,23 @@ input:-webkit-autofill:focus {
 .text-error {
   @apply text-red-500 text-sm mt-1;
 }
+
+.btn {
+  @apply border-2 px-4.5 py-2.5 rounded-xl transition duration-200 ease-linear;
+}
+
+.btn-primary {
+  @apply bg-[#00925d] border-[#00925d] hover:opacity-85;
+}
+
+.btn-outline {
+  @apply border-white hover:bg-white hover:text-black;
+}
+
+.sign-btn {
+  @apply border-[#242424] hover:text-white hover:bg-[#0d0c0f] hover:border-white;
+}
+
+.nav-item {
+  @apply hover:text-[#00925d] font-semibold transition duration-200 ease-linear;
+}
